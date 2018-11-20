@@ -1,9 +1,9 @@
 import java.util.Random;
 /**
- * Write a description of class Balrog here.
+ * An extremely powerful demonic creature
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michal Legocki
+ * @version 11/19/18
  */
 public class Balrog extends Demon
 {
@@ -20,10 +20,12 @@ public class Balrog extends Demon
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Calculates how much damage their attack deals
+     * Overrides Demon's damage()
+     * random number between 1 and strength
+     * attacks twice
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return  damage dealt by attacks
      */
     public int damage()
     {

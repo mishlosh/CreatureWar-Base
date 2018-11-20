@@ -1,9 +1,9 @@
 import java.util.Random;
 /**
- * Write a description of class Elf here.
+ * A magical creature
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michal Legocki
+ * @version 11/19/18
  */
 public class Elf extends Creature
 {
@@ -19,6 +19,14 @@ public class Elf extends Creature
         super(minhp,maxhp,minstr,maxstr);
     }
     
+    /**
+     * Calculates how much damage their attack deals
+     * Overrides creature's damage()
+     * random number between 1 and strength
+     * 10% chance of double damage
+     *
+     * @return  damage dealt by attack
+     */
     public int damage()
     {
         Random rand = new Random();

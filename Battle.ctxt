@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Battle
+comment0.text=\r\n\ Simulates\ a\ battle\ between\ two\ armies\ using\ the\ various\ creatures\r\n\r\n\ @author\ Michal\ Legocki\r\n\ @version\ 11/19/18\r\n
+comment1.params=
+comment1.target=Battle()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Battle\r\n
+comment2.params=
+comment2.target=void\ setupArmies()
+comment2.text=\r\n\ Populates\ the\ two\ armies\r\n
+comment3.params=
+comment3.target=void\ fight()
+comment3.text=\r\n\ Has\ the\ two\ armies\ fight\ until\ one\ of\ them\ is\ exterminated\r\n
+comment4.params=
+comment4.target=void\ report()
+comment4.text=\r\n\ reports\ which\ army\ won\r\n
+numComments=5

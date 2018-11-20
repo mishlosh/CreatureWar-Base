@@ -1,9 +1,9 @@
 
 /**
- * Write a description of class Human here.
+ * A basic creature
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michal Legocki
+ * @version 11/19/18
  */
 public class Human extends Creature
 {

@@ -1,23 +1,32 @@
 import java.util.Random;
 /**
- * Write a description of class Demon here.
+ * A demonic creature (abstract)
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Michal Legocki
+ * @version 11/19/18
  */
 public abstract class Demon extends Creature
 {
-    
+    /**
+     * Constructor for objects of class Demon
+     * 
+     * @param int minHP
+     * @param int maxHP
+     * @param int minSTR
+     * @param int maxSTR
+     */
     public Demon(int minhp, int maxhp, int minstr, int maxstr)
     {
         super(minhp,maxhp,minstr,maxstr);
     }
 
     /**
-     * An example of a method - replace this comment with your own
+     * Calculates how much damage their attack deals
+     * overrides Creature's damage
+     * random number between 1 and strength
+     * 5% chance of +50 damage
      *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
+     * @return  damage dealt by attack
      */
     public int damage()
     {
